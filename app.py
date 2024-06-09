@@ -56,8 +56,8 @@ def user_input(user_question):
         st.stop()
 
 def main():
-    st.set_page_config("Chat with Multiple PDF")
-    st.header("Chat with Multiple PDF using Gemini")
+    st.set_page_config("Algo-AI")
+    st.header("Chat with Algo-AI")
 
     user_question = st.text_input("Ask a Question from the Pdf files")
 
